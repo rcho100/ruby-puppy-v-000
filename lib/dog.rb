@@ -13,7 +13,7 @@ class Dog
   end
 
   def self.all
-    @@all.collect do |dog|
+    @@all.each do |dog|
       puts dog
     end
   end
